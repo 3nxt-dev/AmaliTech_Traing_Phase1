@@ -1,0 +1,89 @@
+body{
+   
+    font-family: 'red hat display';
+}
+
+button{
+    font-family: 'red hat display';
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: 0px;
+    
+}
+
+.hero-first-button{
+    background-color:#4D96A9;
+}
+.hero-first-button:hover{
+    background-color: #8FE3F9;
+}
+
+.hero-second-button{
+    background-color: #855FB1;
+}
+.hero-second-button:hover{
+    background-color: #D9B8FF;
+}
+
+.footer-button{
+    background-color: #855FB1;
+}
+
+
+footer{
+    background-color:#4D96A9;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+
+.top-banner {
+    text-align: center;
+}
+
+.top-banner img{
+    display: inline-block;
+}
+
+.hero-text{
+    text-align: center;
+    /*margin-left: 100px;*/
+    
+}
+.hero-paragraph{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-size: 64px;
+    line-height: 70px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.image-hero-left{
+    float: left;
+    margin-left: -40px;
+}
+.image-hero-right{
+    float: right;
+    margin-top: 50px;
+    margin-right: -40px;
+}
+.photos{
+    display: inline-block;
+}
+
