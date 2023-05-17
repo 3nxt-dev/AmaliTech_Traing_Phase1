@@ -1,7 +1,11 @@
+
+
 body{
    
     font-family: 'red hat display';
-    max-width: auto;
+    max-width: 1440px;
+    min-width: 375px;
+
 }
 
 button{
@@ -90,6 +94,15 @@ p{
 
 }
 .photos{
-    width: 100%;
+    display: flex;
+    /* justify-content:center;*/
+    margin: 0% 10%;
+    gap: 25px;
 }
+.photos img{
+    width: 25%;
+    border-radius: 10px;
+
+}
+
 
