@@ -3,8 +3,10 @@
 body{
    
     font-family: 'red hat display';
-    max-width: 1440px;
+    max-width: 100%;
+    width: 100%;
     min-width: 375px;
+    /*width: max(100%, 100vw);*/
 
 }
 
@@ -38,14 +40,7 @@ button{
     background-color: #D9B8FF;
 }
 
-.footer-button{
-    background-color: #855FB1;
-}
 
-
-footer{
-    background-color:#4D96A9;
-}
 
 .logo{
     display: block;
@@ -71,11 +66,12 @@ footer{
 }
 .hero-paragraph{
     margin: 20px 400px;
+    color: #87879D;
 }
 
 h1{
     font-size: 64px;
-    line-height: 70px;
+    line-height: 64px;
 }
 
 p{
@@ -99,13 +95,51 @@ p{
 .photos{
     display: flex;
     /* justify-content:center;*/
-    margin: 0% 10%;
+    margin: 100px 10%;
     gap: 25px;
+
 }
 .photos img{
     width: 25%;
     border-radius: 10px;
+}
+
+.below-photos-header{
+    color: #4D96A9;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.body h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 500px;
+    line-height: 44px;
+}
+
+.body-text{
+    color: #87879D;
+    text-align: center;
+    margin: 0px 450px;
+    line-height: 26px;
 
 }
 
+.footer-button{
+    background-color: #855FB1;
+}
 
+
+footer{
+    background-color:#4D96A9;
+    background-image: url("/Users/3nxt/Desktop/AmaliTech_Training/AmaliTech_Traing_Phase1/desktop/image-footer.jpg");
+    width: 100%;
+    display: flex;
+}
+
+footer h2{
+    font-size: 40px;
+    line-height: 44px;
+}
