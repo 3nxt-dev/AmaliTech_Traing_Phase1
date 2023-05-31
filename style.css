@@ -82,6 +82,7 @@ button{
 }
 .hero-first-button:hover{
     background-color: #71C0D4;
+    cursor: pointer;
 }
 .hero-first-button-span{
     color: #8FE3F9;
@@ -92,6 +93,7 @@ button{
 }
 .hero-second-button:hover{
     background-color: #D9B8FF;
+    cursor: pointer;
 }
 
 
@@ -168,6 +170,7 @@ footer h2{
 
 .footer-button:hover{
     background-color: #B18BDD;
+    cursor: pointer;
 }
 .footer-button-text{
     color: #D9B8FF;
