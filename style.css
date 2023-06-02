@@ -3,9 +3,8 @@
 body{
    
     font-family: 'red hat display';
-    max-width: 100%;
-    width: 100%;
-    min-width: 375px;
+    max-width: auto;
+    min-width: auto;
 
 }
 
@@ -47,8 +46,10 @@ p{
 
 .image-hero-left{
     float: left;
-    margin-left: -30px;
+
 }
+
+
 
 .image-hero-right{
     float: right;
@@ -130,13 +131,19 @@ button{
 
 
 footer{
-    display: grid;
+   display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color:#4D96A9;
     height: 308px;
     align-content: center;
     padding:50px 150px;
-    
+    /*
+    background-color:#4D96A9;
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    */ 
+
 }
 
 footer h2{
@@ -178,29 +185,43 @@ footer h2{
 
 @media (max-width: 375px){
 
+
+    .top-banner{
+        display: flex;
+        
+    }
+
     .top-banner img{
-        display: inline-block;
-        width: 188px;
-        margin: -1px;
+        width: 50%;
         padding-bottom: 20px;
     }
 
+    .image-hero-left{
+        float: left;
+    }
+    
+    
+    .image-hero-right{
+        float: right;
+        margin: 0 0;
+    
+    }
 
     .hero-area{
         text-align: center;
-    /*    margin-top: 20px;
-        margin-bottom: 100px;
-    */
     }
+
 
     .hero-paragraph{
         margin: 20px 20px;
         color: #87879D;
     }
+    
     h1{
         font-size: 40px;
         line-height: 40px;
     }
+
     p{
         font-size: 16px;
         color: #FAFAFA;
@@ -218,10 +239,7 @@ footer h2{
         grid-template-rows: 1fr 1fr;
         gap: 10px;
         margin-top: auto;
-    /*    display: flex;
-        margin: 100px 10%;
-        gap: 25px;
-    */
+
     }
 
     .photos img{
@@ -244,8 +262,16 @@ footer h2{
     }
 
     .footer{
-        display: block;
+        display: grid;
+        align-content: center;
+        width: 100%;
+        
     }
-
+    
+    /*
+    .footer-column-2{
+        text-align: center;
+    }
+    */
 }
 
