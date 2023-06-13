@@ -156,7 +156,7 @@ button{
     font-size: 40px;
     line-height: 44px;
     text-align: center;
-    margin: 30px 500px;
+    padding: 30px 500px;
 }
 
 .body-text{
@@ -235,6 +235,9 @@ footer{
 
 
 
+
+
+/* This CSS is responsible for the iPad and table screens */
 
 @media (max-width: 1024px) and (min-width: 768px){
     *{
@@ -319,8 +322,7 @@ footer{
         font-size: 40px;
         line-height: 44px;
         text-align: center;
-        margin: px 200px;
-        padding-bottom: 30px;
+        padding: 0px 190px;
     }
 
     .body-text{
@@ -381,6 +383,8 @@ footer{
 } 
 
 
+
+/* This CSS is responsible for the mobile screens */
 @media (max-width: 767px) {
     *{
         box-sizing: border-box;        
@@ -473,7 +477,7 @@ footer{
         font-size: 32px;
         line-height: 36px;
         text-align: center;
-        margin: 0 0px;
+        padding: 0px;
         margin-bottom: 34px;
     } 
 
