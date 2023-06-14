@@ -18,13 +18,21 @@
 
 }
 
+.image-hero-left{
+    margin-left: -26px;
+}
+
+.image-hero-right{
+    margin-right: -26px;
+}
+
 .top-banner-pc{
     display: flex;
 }
 
-.image{
+/* .image{
     flex-shrink: 0;
-}
+} */
 
 .hero-area{
     padding: 0 50px;
@@ -256,6 +264,14 @@ footer{
         display: none;
     }
 
+    .image-hero-left{
+        margin-left: 0px;
+    }
+    
+    .image-hero-right{
+        margin-right: -30px;
+    }
+
     .top-banner-small-screen{
         display: flex;
     }
@@ -392,6 +408,13 @@ footer{
         margin: 50px auto;
     }
 
+    .image-hero-left{
+        margin-left: 0px;
+    }
+    
+    .image-hero-right{
+        margin-right: 0px;
+    }
     .top-banner-small-screen{
         display: flex;
         
