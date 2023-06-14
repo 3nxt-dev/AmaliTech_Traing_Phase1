@@ -186,7 +186,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 100px 150px; */
+    padding: 0px 165px;
     height: 308px;
     width: 100%;
     background: hsla(192, 37%, 48%, 0.8);
@@ -202,13 +202,14 @@ footer{
  } 
 
 
+ .footer-column-1{
+    width: 350px;
+ }
 
  footer h2{
     font-size: 40px;
     line-height: 44px;
     color: #FAFAFA;
-    padding: 0;
-    margin: 0;
 }
 
 .footer-column-2{
@@ -216,9 +217,16 @@ footer{
     font-size: 18px;
     color: #FAFAFA;
     text-align: left;
-    margin-right: 150px;
+    margin-right: 92px;
+    margin-left: 125px;
+    width: 350px;
 }
 
+
+
+.footer-column-3{
+    width: 193px;
+}
 .footer-button{
     background-color: #855FB1;
     width: 193px;
@@ -334,26 +342,16 @@ footer{
 
     .diagram_2{
         margin-top: 80px;
-        /* margin-bottom: -28px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column; */
     
     }
     
-    /* .circle_2{
-        background-color: #FAFAFA;
-    } */
     footer{
        display: flex;
-       flex-wrap: wrap;
+       flex-direction: column;
        align-items: center;
        background-color: hsl(192, 37%, 48%, 0.8);
        height: 428px;
-       padding: 0 90px;
-
-
+       padding-bottom: 0px;
     }
 
     .footer-overlay{
@@ -362,22 +360,19 @@ footer{
 
     .footer-column-1{
         text-align: center;
-        margin-top: 92px;
         margin-left: 50px;
         margin-right: 50px;
+        margin-bottom: 0px;
+        width: 456px;
     }
 
+
     .footer-column-2{
-        font-weight: 500;
         font-size: 18px;
         color: #FAFAFA;
         text-align: center;
-        margin: 0;
+        width: 100%;
     }
-
-    .footer-column-3{
-        margin-bottom: 40px;
-    } 
 
 
 } 
@@ -540,7 +535,14 @@ footer{
 
     .footer-column-3{
         display: flex;
-        justify-content: center;
+        justify-items: center;
 
+    }
+
+    .footer-column-3{
+        width: 100%;
+    }
+    .footer-button{
+        margin: auto;
     }
 }
