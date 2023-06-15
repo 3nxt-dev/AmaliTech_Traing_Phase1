@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 
 .logo{
     display: block;
@@ -28,6 +36,8 @@
 
 .top-banner-pc{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .image{
@@ -248,7 +258,6 @@ footer{
 .footer-button-text{
     color: #D9B8FF;
 }
-
 
 
 
