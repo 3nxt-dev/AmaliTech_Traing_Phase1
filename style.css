@@ -5,7 +5,6 @@
 }
 
 
-
 .logo{
     display: block;
     margin: 80px auto;
@@ -40,17 +39,19 @@
 }
 
 .head{
+    color: #28283D;
     text-align: center;
     font-size: 64px;
+    font-weight: 900;
     line-height: 64px;
 }
 
 .hero-paragraph{
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
     color: #87879D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 button{
@@ -139,30 +140,33 @@ button{
 
 .below-photos-header{
     text-align: center;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 26px;    
-    text-transform: uppercase;
     color: #4D96A9;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
     letter-spacing: 4px;
+    text-transform: uppercase;
 
 }
 
 .body h2 {
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
+    padding: 0px 500px;
+    color: #28283D;
     text-align: center;
-    padding: 30px 500px;
+    font-size: 40px;
+    font-family: Red Hat Display;
+    font-weight: 900;
+    line-height: 44px;
 }
 
 .body-text{
     color: #87879D;
     text-align: center;
+    font-size: 18px;
     margin: 0px 450px;
-    line-height: 26px;
-    padding: 0px 30px;
-
+    /* padding: 0px 30px; */
+    font-weight: 500;
+    line-height: 26px;    
 }
 
 .diagram_2{
@@ -200,14 +204,14 @@ footer{
 
 
  .footer-column-1{
-    width: 350px;
+    width: 330px;
  }
 
  footer h2{
-    font-size: 40px;
-    line-height: 44px;
-    font-weight: 900;
     color: #FAFAFA;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
 }
 
 .footer-column-2{
@@ -217,7 +221,10 @@ footer{
     text-align: left;
     margin-right: 92px;
     margin-left: 125px;
-    width: 350px;
+    color: #FAFAFA;
+    width: 350px; 
+    line-height: 26px;
+    
 }
 
 
@@ -276,18 +283,20 @@ footer{
     }
 
     .head{
+        color: #28283D;
         text-align: center;
         font-size: 48px;
+        font-weight: 900;
         line-height: 48px;
         margin: 20px 200px;
     }
 
     .hero-paragraph{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
         color: #87879D;
         text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
         margin: 30px 130px;
 
 
@@ -327,21 +336,22 @@ footer{
     }
 
     .below-photos-header{
-        text-align: center;
-        font-weight: 900;
-        font-size: 16px;
-        text-transform: uppercase;
         color: #4D96A9;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
         padding-top: 20px;
-        padding-bottom: 0px;
+        /* padding-bottom: 0px; */
     }
 
     .body h2 {
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 48px;
-        line-height: 44px;
+        color: #28283D;
         text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
         padding: 0px 190px;
     }
 
@@ -374,34 +384,33 @@ footer{
      } 
 
     .footer-column-1{
+        width: 100%;
+    }
+    footer h2{
+        color: #FAFAFA;
         text-align: center;
+        font-size: 40px;
         font-weight: 900;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 0px;
-        width: 456px;
+        line-height: 44px;
     }
 
 
     .footer-column-2{
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
         color: #FAFAFA;
         text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
         width: 100%;
         margin-top: -32px;
     }
-
-
-
 
 } 
 
 
 
-/* This CSS is responsible for the mobile screens */
-@media (max-width: 767px) {
+/* This CSS is responsible for the mobile screens --- 767px*/
+@media (max-width: 425px) {
     *{
         box-sizing: border-box;        
     }
@@ -430,19 +439,20 @@ footer{
     }
 
     .head{
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 44px;
+        color: #28283D;
         text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
     }
 
     .hero-paragraph{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
         color: #87879D;
+        text-align: center;
+        font-size: 16px;
         padding: 0 20px;
+        font-weight: 500;
+        line-height: 26px;
     }
     
     .header-buttons-small-screen{
@@ -485,31 +495,30 @@ footer{
     }
 
     .below-photos-header{
-        text-align: center;
-        font-weight: 900;
+        color: #4D96A9;
         font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
         letter-spacing: 4px;
         text-transform: uppercase;
-        color: #4D96A9;
     }
     .body h2 {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
+        color: #28283D;
         text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
         padding: 0px;
-        margin-bottom: 34px;
     } 
 
     .body-text{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
         color: #87879D;
         text-align: center;
-        margin: 0px 0px;
-        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
         line-height: 26px;
+        padding: 0;
+        margin:0;   
         }
 
     .diagram_2{
@@ -532,32 +541,32 @@ footer{
         } 
 
     .footer-column-1{
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
+        width: 100%;
+         padding-top: 92px;
+    }
+    footer h2{
+        color: #FAFAFA;
         text-align: center;
-        padding-top: 92px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        padding: 0;
+        margin: 0;
     }
 
 
      .footer-column-2{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;  
+ 
         color: #FAFAFA;
         text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
         margin: 0;
         padding: 24px;
     }
 
-    footer h2{
-        font-size: 32px;
-        line-height: 44px;
-        color: #FAFAFA;
-        padding: 0;
-        margin: 0;
-    }
+
 
     .footer-column-3{
         display: flex;
@@ -566,9 +575,6 @@ footer{
 
     }
 
-    /* .footer-column-3{
-        width: 100%;
-    } */
     .footer-button{
         margin: auto;
     }
