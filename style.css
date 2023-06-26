@@ -1,9 +1,14 @@
 
+
 *{
-    font-family: 'Red Hat Display';
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
 .logo{
     display: block;
@@ -262,10 +267,12 @@ footer{
 
     .image-hero-left{
         margin-left: 0px;
+        /* padding-left: -60px; */
     }
     
     .image-hero-right{
-        margin-right: -30px;
+        margin-right: 0px;
+        padding-left: 30px;
     }
 
     .top-banner-small-screen{
